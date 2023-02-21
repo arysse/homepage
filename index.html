@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    
+<script>
+    function showDateTime() {
+        var dateTime = new Date();
+        var date = dateTime.toDateString();
+        var time = dateTime.toLocaleTimeString();
+        document.getElementById('datetime').innerHTML = date + ' ' + time;
+    }
+    setInterval(showDateTime, 1000); // Update time every second
+</script>
+    
+<title>Page Title</title>
+    
+</head>
+<body>
+<div id="structure">
+<div id="firstline">
+
+    <h1>Welcome, Aryan</h1>
+    <div id="datetime"></div>
+    
+</div>
+<div id="secline">
+    
+    <a href="https://web.whatsapp.com"><i class="fab fa-whatsapp"></i>
+    <br><br> Whatsapp</a>
+    
+    <a href="https://stmarksmb.edunexttech.com/Index"><i class="fas fa-book"></i>
+    <br><br> School</a>
+    
+    <a href="https://youtube.com"><i class="fab fa-youtube"></i> 
+    <br><br> YouTube</a>
+    
+</div> 
+<div id="triline">
+    
+     <a href="https://canva.com"><i class="fas fa-fill-drip"></i>
+     <br><br>Canva</a>
+     <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope"></i>
+     <br><br> Gmail</a>
+     <a href="https://discord.com/app"><i class="fab fa-discord"></i>
+     <br><br> Discord</a>
+    
+</div>
+</div>
+
+
+</body>
+</html>
