@@ -71,10 +71,7 @@ a:hover {
     color: black;
     background-color: #BDE6F5;
     transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
     cursor: pointer;
-    display: inline-block;
-    text-align: center;
 }
 
 div {
