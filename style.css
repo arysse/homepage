@@ -57,20 +57,33 @@ a:link {
     height: 80px;
     width: 200px;
     margin: auto;
-    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
 }
 
 a:visited {
     color: white;
     text-decoration: none;
-    text-align: center;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 30px;
+    height: 80px;
+    width: 200px;
+    margin: auto;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
 }
 
 a:hover {
     color: black;
     background-color: #BDE6F5;
     transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
 
 div {
