@@ -14,7 +14,8 @@ h1 {
 #structure {
     padding: 50px;
     margin: 50px;
-    margin-top: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 810px;
     justify-content: center;
     align-items: center;
