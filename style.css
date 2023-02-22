@@ -57,8 +57,7 @@ a:link {
     height: 80px;
     width: 200px;
     margin: auto;
-    display: inline-block;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 a:visited {
