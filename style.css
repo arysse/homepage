@@ -28,12 +28,20 @@ body {
     font-family: rubik, sans-serif;
 }
 
+#search {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
 #firstline {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    margin-bottom: 20px;
     margin: 10px;
+    margin-bottom: 0px;
 }
 
 #secline {
@@ -90,3 +98,48 @@ div {
     align-items: center;
     justify-content: space-around;
 }
+
+#search-form {
+    display: flex;
+    width: 100%;
+    font-family: rubik;
+}
+
+#search-query {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    flex: 1;
+    background-color: #1e1e1e;
+    font-family: rubik;
+    color: white;
+}
+
+#search-query:focus {
+    outline: 2px;
+    outline-color: #BDE6F5;
+    outline-style: solid;
+    background-color: #1e1e1e;  
+    
+}
+
+button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1E1E1E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+} 
+
+button[type="submit"]:hover {
+    background-color: #BDE6F5;
+    color: #151415;
+    cursor: pointer;
+    transform: scale(1.05);
+}   
+

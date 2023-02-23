@@ -7,13 +7,19 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     
 <script>
-    function showDateTime() {
-        var dateTime = new Date();
-        var date = dateTime.toDateString();
-        var time = dateTime.toLocaleTimeString();
-        document.getElementById('datetime').innerHTML = date + ' ' + time;
-    }
+function showDateTime() {
+    
+     var dateTime = new Date();
+     var date = dateTime.toDateString();
+     var time = dateTime.toLocaleTimeString();
+     document.getElementById('datetime').innerHTML = date + ' | ' + time;
+
+}
     setInterval(showDateTime, 1000); // Update time every second
+    
+const searchForm = document.querySelector('#search-form');
+const searchQuery = document.querySelector('#search-query');
+
 </script>
     
 <title>Hi, Aryan</title>
@@ -21,12 +27,23 @@
 </head>
 <body>
 <div id="structure">
+
 <div id="firstline">
 
     <h1>Welcome, Aryan</h1>
     <div id="datetime"></div>
     
 </div>
+
+<div id= "search">
+    
+<form id="search-form" action="https://www.google.com/search" method="GET" target="_blank">
+<input type="text" id="search-query" name="q" placeholder="Search...">
+<button type="submit"><i class="fas fa-location-arrow"></i></button>
+</form>
+    
+</div>
+
 <div id="secline">
     
     <a href="https://web.whatsapp.com"><i class="fab fa-whatsapp"></i>
