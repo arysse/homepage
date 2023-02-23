@@ -6,6 +6,7 @@
     font-size: 23px;
     font-weight: bold;
     color: #FBFBFB;
+    text-align: auto;
     margin-left: auto;
 }
 
@@ -154,13 +155,14 @@ button[type="submit"]:hover {
 @media (max-width: 1024px) {
  
 #datetime {
-    font-size: 23px;
+    font-size: 40px;
     font-weight: bold;
     color: #FBFBFB;
+    text-align: left;
 }
 
 h1 {
-    font-size: 23px;
+    font-size: 40px;
     font-weight: bold;
     color: #FBFBFB;    
 }
@@ -194,9 +196,12 @@ body {
     flex-direction: column;
     align-items: baseline;
     margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #secline {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -210,13 +215,13 @@ body {
 a:link {
     color: white;
     text-decoration: none;
-    font-size: 19px;
-    border-radius: 10px;
+    font-size: 30px;
+    border-radius: 10px 0 0 10px;
     background-color: #2b303b;
     color: white;
     padding: 30px;
-    width: 84%;
-    height: 80px;
+    width: 100%;
+    height: auto;
     margin-bottom: 10px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
@@ -261,7 +266,7 @@ div {
 
 #search-query {
     padding: 10px;
-    font-size: 15px;
+    font-size: 30px;
     border: none;
     border-radius: 10px;
     margin-right: 10px;
@@ -281,7 +286,7 @@ div {
 
 button[type="submit"] {
     padding: 10px;
-    font-size: 16px;
+    font-size: 30px;
     background-color: #1E1E1E;
     color: #fff;
     border: none;
