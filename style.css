@@ -1,6 +1,6 @@
 /* -=- BIG SCREENS -=- */
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
     
 #datetime {
     font-size: 23px;
@@ -152,7 +152,7 @@ button[type="submit"]:hover {
 
 /* -=- SMALL SCREENS -=- */
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     
 #datetime {
     font-size: 23px;
