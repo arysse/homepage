@@ -167,7 +167,6 @@ h1 {
 
 #structure {
     padding: 50px;
-
     width: auto;
     justify-content: center;
     align-items: center;
@@ -185,8 +184,8 @@ body {
 #search {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    margin: 5px;
+    margin-top: 10px;
+    margin-right: auto;
     margin-bottom: 10px;
 }
 
@@ -194,12 +193,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin: 10px;
+    margin: auto;
 }
 
 #secline {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #triline {
@@ -215,13 +215,12 @@ a:link {
     background-color: #2b303b;
     color: white;
     padding: 30px;
+    width: 84%;
     height: 80px;
-    width: 82%;
-    margin: auto;
-    margin-right: 100px;
     margin-bottom: 10px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
+    margin-right: auto;
 }
 
 a:visited {
@@ -233,8 +232,6 @@ a:visited {
     color: white;
     padding: 30px;
     height: 80px;
-    width: 82%;
-    margin: auto;
     margin-right: 100px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
