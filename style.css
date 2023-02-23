@@ -155,14 +155,14 @@ button[type="submit"]:hover {
 @media (max-width: 1024px) {
  
 #datetime {
-    font-size: 80px;
+    font-size: 200px;
     font-weight: bold;
     color: #FBFBFB;
     text-align: left;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 200px;
     font-weight: bold;
     color: #FBFBFB;    
 }
@@ -215,7 +215,7 @@ body {
 a:link {
     color: white;
     text-decoration: none;
-    font-size: 80px;
+    font-size: 200px;
     border-radius: 10px 0 0 10px;
     background-color: #2b303b;
     color: white;
@@ -231,7 +231,7 @@ a:link {
 a:visited {
     color: white;
     text-decoration: none;
-    font-size: 80px;
+    font-size: 200px;
     border-radius: 10px;
     background-color: #2b303b;
     color: white;
@@ -265,8 +265,8 @@ div {
 }
 
 #search-query {
-    padding: 10px;
-    font-size: 80px;
+    padding: 50px;
+    font-size: 200px;
     border: none;
     border-radius: 10px;
     margin-right: 10px;
@@ -277,7 +277,7 @@ div {
 }
 
 #search-query:focus {
-    outline: 2px;
+    outline: 5px;
     outline-color: #BDE6F5;
     outline-style: solid;
     background-color: #1e1e1e;  
@@ -286,7 +286,7 @@ div {
 
 button[type="submit"] {
     padding: 10px;
-    font-size: 80px;
+    font-size: 200px;
     background-color: #1E1E1E;
     color: #fff;
     border: none;
