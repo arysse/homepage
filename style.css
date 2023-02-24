@@ -151,3 +151,137 @@ button[type="submit"]:hover {
 }
 
 /* -=- SMALL SCREENS -=- */
+
+@media (max-width: 1024px) {
+
+#datetime {
+    font-size: 2em;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #FBFBFB;    
+}
+
+#structure {
+    padding: 50px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #20242c;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #0F0F0F;
+    font-family: rubik, sans-serif;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+#firstline {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+#secline {
+    display: flex;
+    flex-direction: column;
+}
+
+#triline {
+    display: flex;
+    flex-direction: column;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: #2b303b;
+    color: white;
+    padding: 30px;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color: #2b303b;
+    color: white;
+    padding: 30px;
+    height: 80px;
+    width: 200px;
+    margin: auto;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: black;
+    background-color: #BDE6F5;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#search-form {
+    display: flex;
+    width: auto;
+    font-family: rubik;
+}
+
+#search-query {
+    padding: 10px;
+    font-size: 2em;
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+    background-color: #1e1e1e;
+    font-family: rubik;
+    color: white;
+}
+
+#search-query:focus {
+    outline: 2px;
+    outline-color: #BDE6F5;
+    outline-style: solid;
+    background-color: #1e1e1e;  
+    
+}
+
+button[type="submit"] {
+ display: none;  
+}
