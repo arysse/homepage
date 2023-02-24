@@ -273,7 +273,9 @@ div {
     background-color: #1e1e1e;
     font-family: rubik;
     color: white;
-    width: 100%; /* Add this rule to set the width of the input field */
+    width: 95%; /* Add this rule to set the width of the input field */
+    max-width: 800px; /* Add this rule to set the maximum width of the input field */
+
 }
 
 #search-query:focus {
